@@ -12,8 +12,6 @@
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="index.php">HOME</a></li>
-          <li><a href="about_us.php">ABOUT US</a></li>
-          <li><a href="contact_us.php">CONTACT US</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATEGORY <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
@@ -38,6 +36,8 @@
               ?>
             </ul>
           </li>
+          <li><a href="about_us.php">ABOUT US</a></li>
+          <li><a href="contact_us.php">CONTACT US</a></li>
         </ul>
         <form method="POST" class="navbar-form navbar-left" action="search.php">
           <div class="input-group">
